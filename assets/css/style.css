@@ -13,8 +13,37 @@ body {
     --bg-2: #31A3AE;
 
     --weight-Regular: 400;
-    --weight-Bold: 700;
+    --weight-Light: 300;
+}
+h2 {
+    font-size: 36px;
+    font-weight: var(--weight-Regular);
+    margin-bottom: 50px;
+}
+p {
+    font-weight: var(--weight-Light);
 }
 footer, .card-body, .btn, .icon-background{
     background-color: var(--bg-2);
+}
+section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 767px) {
+    #destacados .card {
+      margin: 0 20px;
+    }
+    #destacados .col {
+        margin-bottom: 20px;
+    }
+    #contacto {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}
+  
+footer {
+    text-align: center;
 }
