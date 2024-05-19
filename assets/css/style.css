@@ -1,9 +1,11 @@
+/* estilos generales */
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg);
     color: var(--info);
     
 }
+/* variables generales  */
 :root {
     --bg:#131313; 
     --info: #dddddd;
